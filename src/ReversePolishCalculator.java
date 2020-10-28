@@ -49,6 +49,7 @@ public class ReversePolishCalculator {
 
     public int read() {
         // Implement your code here to read the top element from the stack (without removing it)
+
         return stack.peek();
     }
 }
