@@ -11,7 +11,7 @@ public class Submit {
         // For BlueJ, ignore these comments
 
         // Add call to the test method here, to test the implementation
-        RPNTest.testAll();
+        // RPNTest.testAll();
         // Uncomment the following line, and add the needed task id, username and password
         // to submit the code to the server
         submit("rpn", "ads20-da1-09", "zaHaeHae7x");
