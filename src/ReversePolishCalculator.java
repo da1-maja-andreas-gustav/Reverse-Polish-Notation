@@ -29,10 +29,13 @@ public class ReversePolishCalculator {
 
     public void times() {
         // Implement your code here to pop two elements and push their product
+        int firstI = stack.pop();
+        int secondI = stack.pop();
+        stack.push(firstI*secondI);
     }
 
     public int read() {
         // Implement your code here to read the top element from the stack (without removing it)
-        return 42;
+        return stack.peek();
     }
 }
