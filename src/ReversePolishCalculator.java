@@ -41,7 +41,7 @@ public class ReversePolishCalculator {
         int el1 = stack.pop();
         int el2 = stack.pop();
 
-        stack.push(el1 - el2);
+        stack.push(el2 - el1);
     }
 
     public void times() {
