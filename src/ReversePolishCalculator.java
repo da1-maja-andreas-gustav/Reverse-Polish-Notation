@@ -1,8 +1,12 @@
 // Version: 20200917
 // Handin done by:
 //   <202004107> <A. Malthe Henriksen>
+//   <202007490> <Gustav Burchardt>
+//   <201905796> <Maja Vonge Cornils>
 // Contributions:
-//   <A. Malthe Henriksen> <Programmed>
+//   <A. Malthe Henriksen> <read() & times()>
+//   <Maja Vonge Cornils> <minus()>
+//   <Gustav Burchardt> <push() & plus()>
 
 import java.io.*;
 import java.util.*;
@@ -36,8 +40,10 @@ public class ReversePolishCalculator {
 
     public void times() {
         // Implement your code here to pop two elements and push their product
+
         int firstI = stack.pop();
         int secondI = stack.pop();
+
         stack.push(firstI*secondI);
     }
 
