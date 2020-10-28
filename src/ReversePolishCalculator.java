@@ -7,6 +7,13 @@
 import java.io.*;
 import java.util.*;
 public class ReversePolishCalculator {
+
+    private Stack<Integer> stack;
+
+    public ReversePolishCalculator() {
+        stack = new Stack<>();
+    }
+
     // Add any private fields you might need here
     public void push(int n) {
         // Implement your code here to handle stack push
