@@ -10,6 +10,7 @@
 
 import java.io.*;
 import java.util.*;
+
 public class ReversePolishCalculator {
 
     private Stack<Integer> stack;
@@ -36,6 +37,11 @@ public class ReversePolishCalculator {
 
     public void minus() {
         // Implement your code here to pop two elements and push their difference
+
+        int el1 = stack.pop();
+        int el2 = stack.pop();
+
+        stack.push(el1 - el2);
     }
 
     public void times() {
