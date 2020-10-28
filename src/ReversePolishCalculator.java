@@ -17,10 +17,17 @@ public class ReversePolishCalculator {
     // Add any private fields you might need here
     public void push(int n) {
         // Implement your code here to handle stack push
+
+        stack.push(n);
     }
 
     public void plus() {
         // Implement your code here to pop two elements and push their sum
+
+        int el1 = stack.pop();
+        int el2 = stack.pop();
+
+        stack.push(el1 + el2);
     }
 
     public void minus() {
